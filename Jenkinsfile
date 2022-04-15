@@ -14,7 +14,7 @@ pipeline {
     stage('test'){
       steps{
         script{
-          sh "packer"
+          sh "packer version"
         }
       }
     }
