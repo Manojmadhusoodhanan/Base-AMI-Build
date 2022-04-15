@@ -12,11 +12,11 @@
       "source_ami_filter": {
         "filters": {
           "virtualization-type": "hvm",
-          "name": "ami-06a0b4e3b7eb7a300",
+          "name": "RHEL_HA-8.4.0_HVM*.*GP2",
           "root-device-type": "ebs"
         },
         "owners": [
-          "amazon"
+          "309956199498"
         ],
         "most_recent": true
       },
