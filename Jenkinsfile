@@ -11,5 +11,12 @@ pipeline {
         }
       }
     }
+    stage('test'){
+      steps{
+        script{
+          sh "packer"
+        }
+      }
+    }
   }
 }
