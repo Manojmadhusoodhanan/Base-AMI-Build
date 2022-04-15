@@ -20,7 +20,6 @@ pipeline {
     stage('packer_build'){
       steps{
         script{
-          sh "echo "starting build...""
           sh "packer build -var-file=vars.json template.json"
         }
       }
