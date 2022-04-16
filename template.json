@@ -22,9 +22,9 @@
       },
       "instance_type": "t2.micro",
       "ssh_username": "{{user `ssh_username`}}",
-      "ami_name": "redHat-ami",
+      "ami_name": "redHat-ami-latest",
 	  "tags":{
-		"Name": "redHat-AMI"
+		"Name": "redHat-AMI-Latest"
 	  }
     }
   ],
